@@ -54,14 +54,19 @@ DeepLow --path <path_to_directory> --prefix <file_prefix> --wl <window_length> -
 --prefix: Prefix for the input files.
 
 --wl: Window length for mismatch calculation (default is 200).
+
 --ws: Window step for mismatch calculation (default is 50).
+
 --custom_norm: Custom normalization value (optional).
+
 --model_name: Name of the trained model file to be used (default is Model-A.pt).
+
 --output_prefix: Prefix for the output prediction files.
 
 ## Model Compatibility
 
 Model-A supports the inputs created with --wl 200 --ws 50 options.
+
 Model-B supports the inputs created with --wl 500 --ws 500 options.
 
 ## Output
@@ -69,8 +74,11 @@ Model-B supports the inputs created with --wl 500 --ws 500 options.
 The tool will generate and save the following files in the specified path:
 
 CNN_input_<prefix>_<wl><ws>.pkl: Intermediate file containing processed data.
+
 Results_<output_prefix>.txt: Final output file with predictions and probabilities.
+
 normalization_values.txt: File containing normalization values for each chromosome.
+
 SNP_counts.txt: File containing the number of overlapping SNP numbers for each pair of individuals.
 
 ## Detailed Explanation of Arguments
