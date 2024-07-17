@@ -30,10 +30,10 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
 
 3. **Cloning the repository with Git LFS w**:
 
-To ensure you download large files managed by Git LFS, you need to have Git LFS installed. If you haven't installed Git LFS yet, follow these 
-instructions:
+  To ensure you download large files managed by Git LFS, you need to have Git LFS installed. If you haven't installed Git LFS yet, follow these 
+  instructions:
 
-A. **Install Git LFS**:
+1. **Install Git LFS**:
     - On macOS:
       Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
     - On Windows:
@@ -42,12 +42,12 @@ A. **Install Git LFS**:
         ```bash
         sudo apt-get install git-lfs
         ```
-B.  **Initialize Git LFS**:
+2.  **Initialize Git LFS**:
     ```bash
     git lfs install
     ```
 
-C. **Clone the repository and install the DeepLow**:
+3. **Clone the repository and install the DeepLow**:
 
    To install the DeepLow, clone the repository and use pip to install:
 
