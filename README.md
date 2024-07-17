@@ -50,7 +50,9 @@ DeepLow --path <path_to_directory> --prefix <file_prefix> --wl <window_length> -
 ## Arguments
 
 --path: Path to the directory containing input files.
+
 --prefix: Prefix for the input files.
+
 --wl: Window length for mismatch calculation (default is 200).
 --ws: Window step for mismatch calculation (default is 50).
 --custom_norm: Custom normalization value (optional).
