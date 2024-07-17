@@ -11,7 +11,7 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
 1. **Create a virtual environment**:
 
     ```bash
-    python3 -m venv mytool_env
+    python3 -m venv deeplow
     ```
 
 2. **Activate the virtual environment**:
@@ -19,19 +19,18 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
     - On macOS and Linux:
 
         ```bash
-        source mytool_env/bin/activate
+        source deeplow/bin/activate
         ```
 
     - On Windows:
 
         ```bash
-        mytool_env\Scripts\activate
+        deeplow\Scripts\activate
         ```
 
 3. **Cloning the repository with Git LFS and Installing DeepLow**:
 
 To ensure you download large files managed by Git LFS, you need to have Git LFS installed. If you haven't installed Git LFS yet, follow these instructions:
-To install the DeepLow, clone the repository and use pip to install:
 
  **Install Git LFS**:
     - On macOS:
@@ -48,6 +47,9 @@ To install the DeepLow, clone the repository and use pip to install:
     ```
 
 3. **Clone the repository and install the DeepLow**:
+
+   To install the DeepLow, clone the repository and use pip to install:
+
     ```bash
     git clone [<repository_url>](https://github.com/MerveNurGuler/DeepLow.git)
     cd DeepLow
