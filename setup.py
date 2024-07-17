@@ -4,7 +4,7 @@ setup(
     name='DeepLow',
     version='1.0.0',
     description='Tool for mismatch calculation and relatedness prediction using CNN for genetic data.',
-    author='Merve N Güler',
+    author='Merve N Güler, Ardan Yılmaz, Büşra Katırcıoğlu',
     author_email='merveglr2626@gmail.com',
     packages=find_packages(),
     install_requires=[
