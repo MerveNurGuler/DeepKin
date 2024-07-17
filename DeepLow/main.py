@@ -4,11 +4,11 @@ import pickle
 import torch
 import pkg_resources
 
-from deep_mismatch.data_processing import pre_process_file, find_chromosome_ranges
-from deep_mismatch.mismatch_calculation import take_combs
-from deep_mismatch.utils import combine_logs, add_row_numbers_to_logs, remove_nan_rows, process_log_files
-from deep_mismatch.prediction import load_model, get_predictions, save_predictions, read_snp_counts, softmax
-from deep_mismatch.cnn_model import pre_process_data
+from DeepLow.data_processing import pre_process_file, find_chromosome_ranges
+from DeepLow.mismatch_calculation import take_combs
+from DeepLow.utils import combine_logs, add_row_numbers_to_logs, remove_nan_rows, process_log_files
+from DeepLow.prediction import load_model, get_predictions, save_predictions, read_snp_counts, softmax
+from DeepLow.cnn_model import pre_process_data
 
 def main():
     parser = argparse.ArgumentParser(description='Process mismatch calculation inputs.')
@@ -50,7 +50,7 @@ def main():
     with open(output_pkl_path, 'rb') as handle:
         X, pairs = pre_process_data(pickle.load(handle))
 
-    model_path = pkg_resources.resource_filename('deep_mismatch', f'models/{model_name}')
+    model_path = pkg_resources.resource_filename('DeepLow', f'models/{model_name}')
     model = load_model(model_path)
 
     snp_counts = read_snp_counts(path)
