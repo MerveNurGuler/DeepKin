@@ -28,12 +28,12 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
         deeplow\Scripts\activate
         ```
 
-3. **Cloning the repository with Git LFS and Installing DeepLow**:
+3. **Cloning the repository with Git LFS w**:
 
 To ensure you download large files managed by Git LFS, you need to have Git LFS installed. If you haven't installed Git LFS yet, follow these 
 instructions:
 
- **Install Git LFS**:
+A. **Install Git LFS**:
     - On macOS:
       Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
     - On Windows:
@@ -42,17 +42,17 @@ instructions:
         ```bash
         sudo apt-get install git-lfs
         ```
-  **Initialize Git LFS**:
+B.  **Initialize Git LFS**:
     ```bash
     git lfs install
     ```
 
-3. **Clone the repository and install the DeepLow**:
+C. **Clone the repository and install the DeepLow**:
 
    To install the DeepLow, clone the repository and use pip to install:
 
     ```bash
-    git clone [<repository_url>](https://github.com/MerveNurGuler/DeepLow.git)
+    git clone (https://github.com/MerveNurGuler/DeepLow.git)
     cd DeepLow
     unzip models.zip
     pip install .
