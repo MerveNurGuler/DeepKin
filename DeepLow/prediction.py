@@ -3,7 +3,7 @@ import time
 import os
 import numpy as np
 
-from deep_mismatch.cnn_model import CNN, pre_process_data
+from DeepLow.cnn_model import CNN, pre_process_data
 
 label_map = {
     0: "2nd degree",
