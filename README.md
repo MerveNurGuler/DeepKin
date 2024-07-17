@@ -28,9 +28,39 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
         mytool_env\Scripts\activate
         ```
 
-3. **Install the package**:
+3. **Cloning the Repository with Git LFS**:
 
 To install the DeepLow, clone the repository and use pip to install:
+
+1. **Install Git LFS**:
+    - On macOS:
+      - Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
+    - On Windows:
+      - Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
+    - On Linux:
+      - For Debian-based systems:
+        ```bash
+        sudo apt-get install git-lfs
+        ```
+      - For Red Hat-based systems:
+        ```bash
+        sudo yum install git-lfs
+        ```
+
+2. **Initialize Git LFS**:
+    ```bash
+    git lfs install
+    ```
+
+3. **Clone the Repository**:
+    ```bash
+    git clone <repository_url>
+    cd my_tool
+    pip install .
+    ```
+
+
+
 
    ```bash
     git clone https://github.com/MerveNurGuler/DeepLow.git
@@ -39,6 +69,38 @@ To install the DeepLow, clone the repository and use pip to install:
     pip install .
 ```
 
+
+To ensure you download large files managed by Git LFS, you need to have Git LFS installed. If you haven't installed Git LFS yet, follow these instructions:
+
+1. **Install Git LFS**:
+    - On macOS:
+      - Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
+    - On Windows:
+      - Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
+    - On Linux:
+      - For Debian-based systems:
+        ```bash
+        sudo apt-get install git-lfs
+        ```
+      - For Red Hat-based systems:
+        ```bash
+        sudo yum install git-lfs
+        ```
+
+2. **Initialize Git LFS**:
+    ```bash
+    git lfs install
+    ```
+
+3. **Clone the Repository**:
+    ```bash
+    git clone <repository_url>
+    cd my_tool
+    pip install .
+    ```
+
+
+    
 ## Usage
 
 Run the command line interface (CLI) with the required arguments to use DeepLow. Below is an example of how to run the tool:
