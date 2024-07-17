@@ -35,9 +35,9 @@ instructions:
 
  **Install Git LFS**:
     - On macOS:
-      - Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
+      Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
     - On Windows:
-      - Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
+      Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
     - On Linux:
         ```bash
         sudo apt-get install git-lfs
