@@ -68,7 +68,7 @@ git lfs install
    To install the DeepLow, clone the repository and use pip to install:
 
     ```bash
-    git clone (https://github.com/MerveNurGuler/DeepLow.git)
+    git clone https://github.com/MerveNurGuler/DeepLow.git
     cd DeepLow/DeepLow
     unzip models.zip
     cd ..
