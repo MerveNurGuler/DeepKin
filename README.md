@@ -36,6 +36,10 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
 1. **Install Git LFS**:
     - On macOS:
       Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
+      ```bash
+      brew install git-lfs
+      ```
+      ** brew install works if Homebrew is installed.
     - On Windows:
       Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
     - On Linux:
