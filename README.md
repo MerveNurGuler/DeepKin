@@ -57,8 +57,9 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
 
     ```bash
     git clone (https://github.com/MerveNurGuler/DeepLow.git)
-    cd DeepLow
+    cd DeepLow/DeepLow
     unzip models.zip
+    cd ..
     pip install .
     ```
 
