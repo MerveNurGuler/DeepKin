@@ -33,19 +33,31 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
   To ensure you download large files managed by Git LFS, you need to have Git LFS installed. If you haven't installed Git LFS yet, follow these 
   instructions:
 
-1. **Install Git LFS**:
-    - On macOS:
-      Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
-      ```bash
-      brew install git-lfs
-      ```
-      ** brew install works if Homebrew is installed.
-    - On Windows:
-      Download the installer from [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) and run it.
-    - On Linux:
-        ```bash
-        sudo apt-get install git-lfs
-        ```
+## Installation Instructions
+
+1. **Install Git LFS**
+
+- **macOS:**
+  - If Homebrew is installed, you can run the following command:
+    ```bash
+    brew install git-lfs
+    ```
+  - Alternatively, download the installer from the [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) page and run it manually.
+
+- **Windows:**
+  - Download the installer from the [Git LFS Releases](https://github.com/git-lfs/git-lfs/releases) page and run it.
+
+- **Linux:**
+  - For Debian-based distributions (e.g., Ubuntu), run:
+    ```bash
+    sudo apt-get install git-lfs
+    ```
+
+After installing Git LFS, you need to initialize it in your repository:
+
+```bash
+git lfs install
+
 2.  **Initialize Git LFS**:
     ```bash
     git lfs install
