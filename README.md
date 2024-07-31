@@ -1,4 +1,4 @@
-## DeepLow
+## DeepKin
 
 This tool is designed for mismatch calculation and relatedness prediction using a Convolutional Neural Network (CNN) for genetic data. It supports both low-coverage and high-coverage genomes. The tool processes input files, calculates mismatches, generates CNN inputs, and performs predictions.
 
