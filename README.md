@@ -11,7 +11,7 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
 1. **Create a virtual environment**:
 
     ```bash
-    python3 -m venv deeplow
+    python3 -m venv deepkin
     ```
 
 2. **Activate the virtual environment**:
@@ -19,13 +19,13 @@ It's recommended to use a virtual environment to manage dependencies. Here's how
     - On macOS and Linux:
 
         ```bash
-        source deeplow/bin/activate
+        source deepkin/bin/activate
         ```
 
     - On Windows:
 
         ```bash
-        deeplow\Scripts\activate
+        deepkin\Scripts\activate
         ```
 
 3. **Cloning the repository with Git LFS w**:
@@ -63,13 +63,13 @@ git lfs install
     git lfs install
     ```
 
-3. **Clone the repository and install the DeepLow**:
+3. **Clone the repository and install the DeepKin**:
 
-   To install the DeepLow, clone the repository and use pip to install:
+   To install the DeepKin, clone the repository and use pip to install:
 
     ```bash
-    git clone https://github.com/MerveNurGuler/DeepLow.git
-    cd DeepLow/DeepLow
+    git clone https://github.com/MerveNurGuler/DeepKin.git
+    cd DeepKin/DeepKin
     unzip models.zip
     cd ..
     pip install .
@@ -77,10 +77,10 @@ git lfs install
 
 ## Usage
 
-Run the command line interface (CLI) with the required arguments to use DeepLow. Below is an example of how to run the tool:
+Run the command line interface (CLI) with the required arguments to use DeepKin. Below is an example of how to run the tool:
 
 ```bash
-DeepLow --path <path_to_directory> --prefix <file_prefix> --wl <window_length> --ws <window_step> --model_name <model_name> --output_prefix <output_prefix>
+DeepKin --path <path_to_directory> --prefix <file_prefix> --wl <window_length> --ws <window_step> --model_name <model_name> --output_prefix <output_prefix>
 ```
 
 ## Arguments
