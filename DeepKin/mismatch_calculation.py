@@ -1,7 +1,7 @@
 import numpy as np
 import os
 
-from DeepLow.data_processing import read_ith_row, remove_zeros
+from DeepKin.data_processing import read_ith_row, remove_zeros
 
 def mismatch_calc_ind(i1, i2, chr_ranges, wl, ws):
     individual1_data, individual2_data = i1[6::2], i2[6::2]
