@@ -2,7 +2,7 @@ import numpy as np
 import os
 import glob
 
-from DeepLow.mismatch_calculation import pad_nan
+from DeepKin.mismatch_calculation import pad_nan
 
 def combine_logs(prefix, sample_comb, path):
     norm_values = []
