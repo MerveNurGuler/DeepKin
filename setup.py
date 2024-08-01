@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='DeepLow',
+    name='DeepKin',
     version='1.0.0',
     description='Tool for mismatch calculation and relatedness prediction using CNN for genetic data.',
     author='Merve N Güler, Ardan Yılmaz, Büşra Katırcıoğlu',
@@ -14,11 +14,11 @@ setup(
         'scikit-learn',
     ],
     package_data={
-        'DeepLow': ['models/*.pt'],
+        'DeepKin': ['models/*.pt'],
     },
     entry_points={
         'console_scripts': [
-            'DeepLow=DeepLow.main:main',
+            'DeepKin=DeepKin.main:main',
         ],
     },
 )
