@@ -4,11 +4,11 @@ import pickle
 import torch
 import pkg_resources
 
-from DeepLow.data_processing import pre_process_file, find_chromosome_ranges
-from DeepLow.mismatch_calculation import take_combs
-from DeepLow.utils import combine_logs, add_row_numbers_to_logs, remove_nan_rows, process_log_files
-from DeepLow.prediction import load_model, get_predictions, save_predictions, read_snp_counts, softmax
-from DeepLow.cnn_model import pre_process_data
+from DeepKin.data_processing import pre_process_file, find_chromosome_ranges
+from DeepKin.mismatch_calculation import take_combs
+from DeepKin.utils import combine_logs, add_row_numbers_to_logs, remove_nan_rows, process_log_files
+from DeepKin.prediction import load_model, get_predictions, save_predictions, read_snp_counts, softmax
+from DeepKin.cnn_model import pre_process_data
 
 def main():
     parser = argparse.ArgumentParser(description='Process mismatch calculation inputs.')
