@@ -50,7 +50,7 @@ def main():
     with open(output_pkl_path, 'rb') as handle:
         X, pairs = pre_process_data(pickle.load(handle))
 
-    model_path = pkg_resources.resource_filename('DeepLow', f'models/{model_name}')
+    model_path = pkg_resources.resource_filename('DeepKin', f'models/{model_name}')
     model = load_model(model_path)
 
     snp_counts = read_snp_counts(path)
