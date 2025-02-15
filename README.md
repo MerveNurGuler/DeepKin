@@ -68,9 +68,9 @@ To run DeepKin, use the command-line interface (CLI) with the required arguments
 DeepKin --path <path_to_directory> --prefix <file_prefix> --wl <window_length> --ws <window_step> --model_name <model_name> --output_prefix <output_prefix>
 ```
 
-### Example:
+### Example with toy-data:
 ```bash
-DeepKin --path data/ --prefix sample --wl 200 --ws 50 --model_name Model-A.pt --output_prefix results
+DeepKin --path ./toy-data/ --prefix toy --wl 200 --ws 50 --model_name Model-A.pt --output_prefix toy-results
 ```
 
 ---
