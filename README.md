@@ -1,14 +1,6 @@
 # DeepKin: Mismatch Calculation and Relatedness Prediction
 
-DeepKin is a powerful tool for calculating mismatches and predicting relatedness from genetic data using a Convolutional Neural Network (CNN). It supports both low-coverage and high-coverage genomes. The tool processes PLINK `.map` and `.ped` files, calculates mismatches, generates CNN inputs, and performs predictions.
-
-## 🚀 Features
-
-- **Supports low- and high-coverage genomic data**  
-- **CNN-based relatedness prediction**  
-- **Flexible window size and step options**  
-- **Custom normalization for small sample sizes**  
-- **Efficient batch processing of genomic datasets**  
+DeepKin is a tool for calculating mismatches and predicting relatedness from genetic data using a Convolutional Neural Network (CNN). It supports both low-coverage and high-coverage genomes. The tool processes PLINK `.map` and `.ped` files, calculates mismatches, generates CNN inputs, and performs predictions. 
 
 ---
 
@@ -97,7 +89,7 @@ DeepKin --path data/ --prefix sample --wl 200 --ws 50 --model_name Model-A.pt --
 
 ---
 
-## 🏆 Model Compatibility
+## 🚀 Model Compatibility
 
 | Model | Supported Parameters |
 |-------|----------------------|
