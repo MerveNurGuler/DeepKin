@@ -1,6 +1,8 @@
 # DeepKin: Predicting relatedness from low-coverage genomes and paleogenomes with convolutional neural networks
 
-DeepKin is a tool for calculating mismatches and predicting relatedness from genetic data using a Convolutional Neural Network (CNN). It supports both low-coverage and high-coverage genomes. The tool processes PLINK `.map` and `.ped` files, calculates mismatches, generates CNN inputs, and performs predictions. 
+DeepKin is a tool for calculating mismatches and predicting relatedness from genetic data using a Convolutional Neural Network (CNN). It supports both low-coverage and high-coverage genomes. The tool processes PLINK `.map` and `.ped` files, calculates mismatches, generates CNN inputs, and performs predictions.
+
+BioRxiv link: https://www.biorxiv.org/content/10.1101/2024.08.08.607159v1
 
 ---
 
